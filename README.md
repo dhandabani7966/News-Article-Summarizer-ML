@@ -1,2 +1,28 @@
-# News-Article-Summarizer-ML
-This project uses Natural Language Processing and the BART Transformer model to summarize news articles automatically. The model analyzes lengthy articles and generates concise summaries while preserving important information.
+# News Article Summarizer with Machine Learning
+
+## Overview
+This project automatically summarizes lengthy news articles into concise and meaningful summaries using Natural Language Processing (NLP) and Transformer models.
+
+## Features
+- Automatic news summarization
+- NLP-based text processing
+- Transformer model (BART)
+- Easy-to-use interface
+- Fast summary generation
+
+## Technologies Used
+- Python
+- Google Colab
+- Hugging Face Transformers
+- PyTorch
+- NLP
+
+## Model Used
+facebook/bart-large-cnn
+
+## Installation
+
+```bash
+pip install transformers
+pip install torch
+pip install sentencepiece
